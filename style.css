@@ -4,6 +4,10 @@
     box-sizing:border-box;
     scroll-behavior: smooth;
 }
+
+header{
+    z-index:1000;
+}
 li{
     list-style-type:none;
     margin:0 4em;
