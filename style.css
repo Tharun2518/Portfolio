@@ -246,7 +246,7 @@ input[type="text"],input[type="email"],input[type="date"],input[type="submit"]{
 
 /* for responsiv */
 
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:1100px){
         li{
             margin:0 1.8em;
         }
@@ -281,7 +281,7 @@ input[type="text"],input[type="email"],input[type="date"],input[type="submit"]{
     flex-direction:column-reverse;
    }
    .profile-photo{
-    padding-top:1em;
+    padding-top:2em;
    }
    .section30-box{
     width:90%;
@@ -294,4 +294,11 @@ input[type="text"],input[type="email"],input[type="date"],input[type="submit"]{
    .grid-box{
     width:100%;
    }
+
+    @media screen and (max-width 780px){
+        .profile-photo img{
+            width:10em;
+            height:10em;
+        }
+    }
 }
